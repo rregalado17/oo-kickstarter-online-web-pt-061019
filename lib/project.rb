@@ -1,7 +1,7 @@
 def Project
   attr_reader :title 
   
-  def initialize(title)
+  def self.initialize(title)
     @title = title 
     
   end
